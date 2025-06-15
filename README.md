@@ -1,4 +1,4 @@
-# Django Pricing Module
+# Pricing Module L2
 
 ## Features
 
