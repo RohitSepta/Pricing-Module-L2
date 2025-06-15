@@ -1,6 +1,5 @@
 from django.contrib import admin
 from django.contrib import messages
-from django.utils.html import format_html
 from .models import PricingConfiguration, PricingConfigurationLog
 from .forms import PricingConfigurationAdminForm
 

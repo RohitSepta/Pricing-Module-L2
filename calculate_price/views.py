@@ -1,16 +1,12 @@
 from django.shortcuts import render
-from django.http import JsonResponse
 from django.contrib import messages
-from django.views.decorators.csrf import csrf_exempt
-from django.utils.decorators import method_decorator
 from rest_framework import viewsets, status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from decimal import Decimal
-import json
 import math
 
-from .models import PricingConfiguration, PricingConfigurationLog
+from .models import PricingConfiguration
 from .forms import PricingCalculationForm
 from .serializers import PricingConfigurationSerializer, PricingCalculationSerializer
 
